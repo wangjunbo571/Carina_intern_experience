@@ -1,0 +1,132 @@
+body{
+    background-size: cover;
+    background-attachment: fixed;
+    content: '';
+    will-change: transform;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    position: fixed;
+    background-image: url("../images/Background.jpg");
+}
+
+
+.detail{
+    background-size: cover;
+    background-attachment: fixed;
+    content: '';
+    will-change: transform;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    position: fixed;
+    background-image: url("../images/Detail.jpeg");
+}
+
+a.mdl-navigation__link {
+    font-weight: bold;
+}
+
+.demo-card-wide.mdl-card {
+    margin: 0 auto;
+    height:500px;
+    margin-bottom: 200px;
+}
+
+.demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 300px;
+}
+.demo-card-wide > .mdl-card__menu {
+    color: #fff;
+}
+
+.mdl-card__title-text{
+    font-weight: bold;
+}
+
+.mdl-card__supporting-text{
+    font-weight: bold; 
+}
+.introduce{
+    font-family: 'Indie Flower', cursive;
+    color:white;
+    font-size:1000%;
+    text-align:center;
+    height: 800px;
+}
+
+
+#Education{
+    background: url('../images/Education.jpg') center / cover;
+}
+
+#Working{
+    background: url('../images/Working.jpg') center / cover;
+}
+
+.mdl-card--border{
+    background-color : transparent;
+}
+
+#Extracurricular{
+   background: url('../images/Exta.jpg') center / cover; 
+}
+
+#Projects{
+   background: url('../images/Project.jpg') center / cover; 
+}
+
+a:hover{
+    color:#D0D0D0;
+}
+
+.material-icons{
+    margin: 40px;
+}
+
+@media(min-width:768px){
+    .changable{
+        width:750px;
+    }
+    .LearnMore{
+        font-size:75%;
+    }
+    iframe{
+        width:100%;
+        height:900px;
+        margin:0;
+    }
+}
+
+@media(min-width:992px){
+    .changable{
+        width:970px;
+    }
+    .LearnMore{
+        font-size:85%;
+    }
+    iframe{
+        width:100%;
+        height:500px;
+        margin:0;
+    }
+}
+
+@media(min-width:1200px){
+    .changable{
+        width:1170px;
+    }
+    .LearnMore{
+        font-size:100%;
+    }
+    iframe{
+        width:100%;
+        height:700px;
+        margin:0;
+    }
+}
