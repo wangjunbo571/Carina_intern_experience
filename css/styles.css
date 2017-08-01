@@ -24,7 +24,7 @@ body{
     bottom: 0;
     top: 0;
     position: fixed;
-    background-image: url("../images/Detail.jpeg");
+    background-image: url("../images/Detail.jpg");
 }
 
 a.mdl-navigation__link {
@@ -63,8 +63,20 @@ a.mdl-navigation__link {
 }
 
 
-#Education{
+#Week1{
     background: url('../images/Schedule.jpg') center / cover;
+}
+
+#Week2{
+    background: url('../images/Schedule.jpg') center / cover;
+}
+
+#Week3{
+    background: url('../images/Filter.jpeg') center / cover;
+}
+
+#Week4{
+    background: url('../images/SMS.jpg') center / cover;
 }
 
 #Working{
@@ -89,6 +101,11 @@ a:hover{
 
 .material-icons{
     margin: 40px;
+}
+
+.mdl-layout-title {
+    color:white;
+    font-weight: bold;
 }
 
 @media(min-width:768px){
@@ -134,4 +151,39 @@ a:hover{
         margin:0;
         height:1000px;
     }
+}
+
+.mdl-layout__tab{
+     font-weight: bold; 
+     color:white;
+}
+
+.page-content{
+    margin:40px;
+    color:black;
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 10%;
+    padding:15px;
+}
+
+.introduction{
+    font-weight: bold;
+    font-family: "Lato";
+    font-size: 19px;
+}
+
+#screenView{
+    margin:50px;
+    width:1440px;
+}
+
+.designContainer{
+    background-color: white;
+    width:1010px;
+    margin:auto;
+}
+
+.biggerDesignContainer{
+    margin:auto;
+    width:1200px;
 }
