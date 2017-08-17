@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>JunBo Wang</title>
+        <link rel="Shortcut Icon" type="image/x-icon" href="images/favicon.ico" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-blue.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body class ="detail">
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+            <header class="mdl-layout__header mdl-layout__header--transparent">
+                <div class="mdl-layout__header-row">
+                    <a href="index.html"><span class="mdl-layout-title">Back to Main Page </span></a>
+                    <div class="mdl-layout-spacer"></div>
+                    <nav class="mdl-navigation">
+                        <a class="mdl-navigation__link" href="Project_1.html">Schedule Service</a>
+                        <a class="mdl-navigation__link" href="Project_2.html">Matching Service</a>
+                        <a class="mdl-navigation__link" href="Project_3.html">SMS Service</a>
+                        <a class="mdl-navigation__link" href="Project_4.html">UX Design</a>
+                        <a class="mdl-navigation__link" href="#Extracurricular">Reflections</a>
+                    </nav>
+                </div>
+            </header>
+            <main class="mdl-layout__content">
+                <div class="breif-introduce"><br><br><br><br><br>Schedule Service</div>
+                <div class="lg_spacer"></div>
+                <section class="mdl-layout__tab-panel" id="scroll-tab-1">
+                    <div class="page-content">
+                        <p class="introduction">The first part is designed to let people be able to customize the time schedules that they need health care. Consequently, the health care provider can apply the jobs that match their own time schedules</p>
+                        <p class="introduction">Firstly, people will need to enter "How many hours are you allotted monthly".</p>
+                        <p class="introduction">Then there is a schedule table. People can click and drag on the table to change the color of elements. It will illustrate the time schedule of the health care seeker</p>
+                        <p class="introduction">Finally, there is a section to show how many hours have been selected and how many more hours you need to select in order to match your alloted hours</p>
+                    </div>
+                    <div class="md_spacer"></div>
+                    <div class="designContainer">
+                        <div id="screenContainer" class="" style="width: 1001.62px; height: 1283.33px;">
+                            <template id="layerTemplate">
+                                <div class="layer">
+                                    <div class="layerWidth"></div>
+                                    <div class="layerHeight"></div>
+                                    <div class="cornerCircle topLeftCircle"></div>
+                                    <div class="edgeCircle horizontalEdgeCircle topCircle"></div>
+                                    <div class="cornerCircle topRightCircle"></div>
+                                    <div class="edgeCircle verticalEdgeCircle rightCircle"></div>
+                                    <div class="cornerCircle bottomRightCircle"></div>
+                                    <div class="edgeCircle horizontalEdgeCircle bottomCircle"></div>
+                                    <div class="cornerCircle bottomLeftCircle"></div>
+                                    <div class="edgeCircle verticalEdgeCircle leftCircle"></div>
+                                </div>
+                            </template>
+                            <img crossorigin="anonymous" id="screenImage" class="noSelect" src="https://cdn.zeplin.io/57fd23cd471128721614442b/screens/ABD380E1-73FE-4BC7-9B1E-CB72DE316354.png" style="width: 1001.62px; height: 1283.33px;">
+                            <div id="layers">    
+                            <div id="layoutGridContainer" class="hidden">
+                                <canvas id="gridCanvas" width="1080" height="1383"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    <img id="cursorImage" class="hidden" style="transform: translate(950px, 34px);">
+                </section>
+                <div class="lg_spacer"></div>
+                <section class="mdl-layout__tab-panel  is-active" id="scroll-tab-2">
+                    <div class="page-content">
+                        <p class="introduction">The Second part design is focused on allowing people to match their customized time schedule with the jobs' schedule.</p>
+                        <p class="introduction">This is in the process that healthcare providers want to apply for a job. In the Jobboard, there will be plenty of Jobcards</p> 
+                        <p class="introduction">In each job card, it will show the matching hours of this job with your schedule.</p>
+                        <p class="introduction">For each day, one corresponding blue circle will show the matching hours. If it is no matching hours, it will be grey</p>
+                        <p class="introduction">When users hover over the schedule circles, it will show the details of matching hours in the form of schedule table</p>
+                    </div>
+                    <div class="md_spacer"></div>
+                    <div class="designContainer">
+                        <div id="screenContainer" class="" style="width: 712.263px; height: 1173.43px;">
+                             <template id="layerTemplate">
+                                <div class="layer">
+                                    <div class="layerWidth"></div>
+                                    <div class="layerHeight"></div>
+                                    <div class="cornerCircle topLeftCircle"></div>
+                                    <div class="edgeCircle horizontalEdgeCircle topCircle"></div>
+                                    <div class="cornerCircle topRightCircle"></div>
+                                    <div class="edgeCircle verticalEdgeCircle rightCircle"></div>
+                                    <div class="cornerCircle bottomRightCircle"></div>
+                                    <div class="edgeCircle horizontalEdgeCircle bottomCircle"></div>
+                                    <div class="cornerCircle bottomLeftCircle"></div>
+                                    <div class="edgeCircle verticalEdgeCircle leftCircle"></div>
+                                </div>
+                            </template>
+                            <img crossorigin="anonymous" id="screenImage" class="noSelect" src="https://cdn.zeplin.io/57fd23cd471128721614442b/screens/81805968-0C46-4354-9035-02053295BBA3.png" style="width: 712.263px; height: 1173.43px;">
+                            <div id="layers">
+
+                            <div id="dots" data-status-filter="open"></div>
+                            <div id="rulers" class="hidden">
+                                <div id="topRuler" class="ruler horizontal noEvent"></div>
+                                <div id="rightRuler" class="ruler vertical noEvent"></div>
+                                <div id="bottomRuler" class="ruler horizontal noEvent"></div>
+                                <div id="leftRuler" class="ruler vertical noEvent"></div>
+                            </div>
+                            <div id="distances">
+                                <div id="topDistance" class="distance vertical noEvent hidden">
+                                    <div id="topDistanceValue" class="distanceValue"></div>
+                                </div>
+                                <div id="rightDistance" class="distance horizontal noEvent hidden">
+                                    <div id="rightDistanceValue" class="distanceValue"></div>
+                                </div>
+                                <div id="bottomDistance" class="distance vertical noEvent hidden">
+                                    <div id="bottomDistanceValue" class="distanceValue"></div>
+                                </div>
+                                <div id="leftDistance" class="distance horizontal noEvent hidden">
+                                    <div id="leftDistanceValue" class="distanceValue"></div>
+                                </div>
+                            </div>
+                            <div id="layoutGridContainer" class="hidden">
+                                <canvas id="gridCanvas" width="712" height="1173"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="lg_spacer"></div>
+                <a href="mailto:junbo@uw.edu"> <i class="material-icons">email</i></a>
+                <a href="callto:+12063310686"> <i class="material-icons">perm_phone_msg</i></a>
+                <a href="https://www.linkedin.com/in/%E5%90%9B%E5%8D%9A-%E7%8E%8B-2881ba133/"><i class="material-icons">perm_identity</i></a>
+            </main>
+        </div>
+    </body>
+</html>
