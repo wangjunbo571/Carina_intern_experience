@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>JunBo Wang</title>
+        <link rel="Shortcut Icon" type="image/x-icon" href="images/favicon.ico" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-blue.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body class ="detail">
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+            <header class="mdl-layout__header mdl-layout__header--transparent">
+                <div class="mdl-layout__header-row">
+                    <a href="index.html"><span class="mdl-layout-title">Back to Main Page </span></a>
+                    <div class="mdl-layout-spacer"></div>
+                    <nav class="mdl-navigation">
+                        <a class="mdl-navigation__link" href="Project_1.html">Schedule Service</a>
+                        <a class="mdl-navigation__link" href="Project_2.html">Matching Service</a>
+                        <a class="mdl-navigation__link" href="Project_3.html">SMS Service</a>
+                        <a class="mdl-navigation__link" href="Project_4.html">UX Design</a>
+                        <a class="mdl-navigation__link" href="Reflection.html">Reflections</a>
+                    </nav>
+                </div>
+            </header>
+            <main class="mdl-layout__content">
+                <div class="breif-introduce"><br><br><br><br><br>SMS Service</div>
+                <div class="lg_spacer"></div>
+                <section class="mdl-layout__tab-panel" id="scroll-tab-4">
+                    <div class="page-content">
+                        <p class="introduction">The first part design is focused on the statistic SMS service, through twillio and api.ai</p>
+                        <p class="introduction">The Carina will send out prompt messages to users to check their availability, based on their attributes. Hello {first name}, clients appreciate providers that update their Carina profiles. Text “1” if you are available to care for a new client or “2” if you are not. Text “NO” to unsubscribe. </p> 
+                        <p class="introduction">And the carina can send back their corresponding texts, based on user's returned availability status. "Thanks for updating your profile! Clients will see you listed as {available/ unavailable}. Login to edit at any time: www.cariancare.com/profile/edit."</p>
+                        <p class="introduction">And they will also make respondence messgaes to the invaild input</p>
+                    </div>
+                    <div class="md_spacer"></div>
+                    <div class="biggerDesignContainer">
+                        <template id="layerTemplate">
+                            <div class="layer">
+                                <div class="layerWidth"></div>
+                                <div class="layerHeight"></div>
+                                <div class="cornerCircle topLeftCircle"></div>
+                                <div class="edgeCircle horizontalEdgeCircle topCircle"></div>
+                                <div class="cornerCircle topRightCircle"></div>
+                                <div class="edgeCircle verticalEdgeCircle rightCircle"></div>                                    <div class="cornerCircle bottomRightCircle"></div>
+                                <div class="edgeCircle horizontalEdgeCircle bottomCircle"></div>
+                                <div class="cornerCircle bottomLeftCircle"></div>
+                                <div class="edgeCircle verticalEdgeCircle leftCircle"></div>
+                            </div>
+                        </template>
+                        <img crossorigin="anonymous" id="screenImage" class="noSelect" src="https://cdn.zeplin.io/57fd23cd471128721614442b/screens/16B98DF0-9D6B-4DF5-858E-757200756EAD.png" style="width: 1200px; height: 1029.44px;">
+                    </div>
+                </section>
+                <div class="lg_spacer"></div>
+                <section class="mdl-layout__tab-panel" id="scroll-tab-5">
+                    <div class="page-content">
+                        <p class="introduction">The second part is focusing on touching the database and setup cron to make follow up actions</p>
+                        <p class="introduction">Several new columns, callled last updated, last receieved, last sent, were created in order to facilitate the conditional judgement </p> 
+                        <p class="introduction">The promption messgaes will be sent out periodicly based on the cron service </p> 
+                        <p class="introduction">And the cron service will also help to check whether user responded in time. If not they will send out follow up messages or set the status to unavailable directly</p>
+                    </div>
+                    <div class="md_spacer"></div>
+                    <div class="biggerDesignContainer">
+                    <img src="images/Week5.png" style="width:1199px"alt="Week 5 design is missing Contact Junbo Through junbo@uw.edus"/>
+                    </div>
+                </section>
+                <div class="lg_spacer"></div>
+                <a href="mailto:junbo@uw.edu"> <i class="material-icons">email</i></a>
+                <a href="callto:+12063310686"> <i class="material-icons">perm_phone_msg</i></a>
+                <a href="https://www.linkedin.com/in/%E5%90%9B%E5%8D%9A-%E7%8E%8B-2881ba133/"><i class="material-icons">perm_identity</i></a>
+            </main>
+        </div>
+    </body>
+</html>

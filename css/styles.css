@@ -27,6 +27,20 @@ body{
     background-image: url("../images/Detail.jpg");
 }
 
+.reflection{
+    background-size: cover;
+    background-attachment: fixed;
+    content: '';
+    will-change: transform;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    position: fixed;
+    background-image: url("../images/Reflection.jpg");
+}
+
 a.mdl-navigation__link {
     font-weight: bold;
 }
@@ -62,25 +76,29 @@ a.mdl-navigation__link {
     height: 800px;
 }
 
+.breif-introduce{
+    font-family: 'Lobster', cursive;
+    color:white;
+    font-size:950%;
+    text-align:center;
+    height: 200px;
+}
 
-#Week1{
+
+#Project_1{
     background: url('../images/Schedule.jpg') center / cover;
 }
 
-#Week2{
-    background: url('../images/Schedule.jpg') center / cover;
-}
-
-#Week3{
+#Project_2{
     background: url('../images/Filter.jpeg') center / cover;
 }
 
-#Week4{
+#Project_3{
     background: url('../images/SMS.jpg') center / cover;
 }
 
-#Working{
-    background: url('../images/Working.jpg') center / cover;
+#Project_4{
+    background: url('../images/UX.png') center / cover;
 }
 
 .mdl-card--border{
@@ -106,6 +124,14 @@ a:hover{
 .mdl-layout-title {
     color:white;
     font-weight: bold;
+}
+
+.lg_spacer{
+    height:100px;
+}
+
+.md_spacer{
+    height:60px;
 }
 
 @media(min-width:768px){
@@ -159,11 +185,12 @@ a:hover{
 }
 
 .page-content{
-    margin:40px;
+    margin:auto;
     color:black;
     background-color: rgba(255,255,255,0.4);
     border-radius: 10%;
     padding:15px;
+    width:1000px;
 }
 
 .introduction{
